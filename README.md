@@ -1,8 +1,6 @@
 ### What is Boombox?
 
-- Comment
-- Edit from here
-- Boombox is a crypto consumer app to share your favorite artists and earn BOOM when other add them too.
+Boombox is a crypto consumer app to share your favorite artists and earn BOOM when other add them too.
 
 Users sign-in to Boombox with Privy and connect their Spotify to pull their favorite artists.
 
