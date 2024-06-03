@@ -1,67 +1,29 @@
-## Foundry
+### What is Boombox?
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+- Comment
+- Edit from here
+- Boombox is a crypto consumer app to share your favorite artists and earn BOOM when other add them too.
 
-Foundry consists of:
+Users sign-in to Boombox with Privy and connect their Spotify to pull their favorite artists.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+Here they can add those artists to their Boombox using a native currency called BOOM - an onchain points system built on a Base L3.
 
-## Documentation
+Once adding an artist, fans can upgrade to higher fan tiers and join community message boards.
 
-https://book.getfoundry.sh/
+Every time someone adds an artist that you own in your Boombox - you earn BOOM.
 
-## Usage
+### Key Info
 
-### Build
+Boombox has done 154k transactions since launch across 8.5k unique users and 2k unique artist communites - the vast majority of which have never touched crypto before.
 
-```shell
-$ forge build
-```
+More stats can be monitored using Boombox Watch.
 
-### Test
+This was accomplished by using the following stack:
 
-```shell
-$ forge test
-```
+Privy for onboarding
+Stack for onchain points
+Farcaster for go-to market
+Base for redemptions
+Boombox was a collaboration between Anthem and Coop Records - launched as a case study to find new ways to onboard users completely new to crypto.
 
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
-# boombox
+Start using Boombox at app.boombox.fm
